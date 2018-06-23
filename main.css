@@ -1,0 +1,66 @@
+
+  @import url("whitespace-reset.css");
+
+  body {
+    background-image: url("bg_body.gif");
+    margin-bottom: 155px;
+    font-family: 'Nunito', Arial, sans-serif;
+    font-size: 22px;
+  }
+
+  header, main, footer {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+  header {
+    padding-top: 150px;
+    padding-bottom: 100px;
+    margin-bottom: -16px;
+  }
+
+  h1, h2, p {
+    box-sizing: border-box;
+    margin: 0;
+  }
+
+  h1 {
+    font-family: 'Nunito: 900', Arial, sans-serif;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    font-size: 36px;
+  }
+
+  h2 {
+    font-family: 'Nunito: 700', Arial, sans-serif;
+    font-size: 24px;
+    color: #3e98b2;
+    padding-bottom: 30px;
+  }
+
+  p {
+    padding: 0 90px 50px 90px;
+  }
+
+  main {
+    background-color: white;
+  }
+
+  ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background-color: #e7e7e7;
+    margin: 0;
+    padding: 35px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  li {
+    padding: 0 60px;
+  }
